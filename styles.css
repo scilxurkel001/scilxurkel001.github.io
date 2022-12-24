@@ -37,6 +37,10 @@ p {
     font-size: 15px;
     color: skyblue
 }
+p, li {
+    font-size: 15px;
+    color: skyblue
+}
 a:link {
     color: white
 }
@@ -58,3 +62,4 @@ audio {
     width: 400px;
     margin: 0 auto;
 }
+
