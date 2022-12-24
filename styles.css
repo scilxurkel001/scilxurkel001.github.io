@@ -1,0 +1,60 @@
+html {
+    font-size: 15px;
+    background-color: blueviolet;
+}
+body {
+    width: 600px;
+    background-color: purple;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: yellow
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: yellow
+}
+h3 {
+    font-size: 15px;
+    text-align: center;
+    color: yellow
+}
+h4 {
+    font-size: 15px;
+    text-align: center;
+    color: yellow
+}
+h5 {
+    font-size: 10px;
+    text-align: center;
+    color: yellow
+}
+p {
+    font-size: 15px;
+    color: skyblue
+}
+a:link {
+    color: white
+}
+a:visited {
+    color: pink
+}
+img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+video {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+audio {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
