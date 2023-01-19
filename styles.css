@@ -1,65 +1,80 @@
-html {
-    font-size: 15px;
-    background-color: blueviolet;
-}
-body {
-    width: 600px;
-    background-color: purple;
-    margin: 0 auto;
-    border: 5px solid black;
-}
 h1 {
     font-size: 30px;
     text-align: center;
-    color: yellow
+    color: black;
+    margin: 100px;
 }
 h2 {
     font-size: 20px;
     text-align: center;
-    color: yellow
+    color: black;
 }
 h3 {
     font-size: 15px;
     text-align: center;
-    color: yellow
+    color: black;
 }
 h4 {
     font-size: 15px;
     text-align: center;
-    color: yellow
+    color: black;
 }
 h5 {
     font-size: 10px;
     text-align: center;
-    color: yellow
+    color: black;
 }
 p {
     font-size: 15px;
-    color: skyblue
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 p, li {
     font-size: 15px;
-    color: skyblue
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 a:link {
-    color: white
+    color: blue
+    margin-left: 100px;
+    margin-right: 100px;
 }
 a:visited {
-    color: pink
+    color: purple
+    margin-left: 100px;
+    margin-right: 100px;
 }
 img {
     display: block;
+    text-align: center;
     width: 400px;
     margin: 0 auto;
 }
 video {
     display: block;
+    text-align: center;
     width: 400px;
     margin: 0 auto;
 }
 audio {
     display: block;
+    text-align: center;
     width: 400px;
     margin: 0 auto;
 }
+.full-background {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    /* Take full size */
+    height: 100vh;
+    width: 100vw;
+
+    /* Background */
+    background: url(https://scilxurkel001.github.io/png/IMG-1.JPG) center center / cover no-repeat;
+}
