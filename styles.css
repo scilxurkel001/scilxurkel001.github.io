@@ -78,8 +78,23 @@ audio {
     /* Background */
     background: url(https://scilxurkel001.github.io/png/IMG-1.JPG) center center / cover no-repeat;
 }
+p.full-background{
+    color: azure;
+}
+h1.full-background{
+    color: azure;
+}
+h2.full-background{
+    color: azure;
+}
+h3.full-background{
+    color: azure;
+}
 .sticky-header {
     position: sticky;
     top: 0;
     color: blueviolet;
+}
+p.sticky-header {
+    text-align: center;
 }
